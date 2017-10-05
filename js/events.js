@@ -15,7 +15,7 @@ function frameIt() {
 function pressIt() {
   $('input').on('keydown', function(e) {
 //    if(e.shiftKey){
-      if(e.key === 71) {
+      if(e.which === 71) {
         alert("You pressed a CAPITAL G!");
 //      }
     }
