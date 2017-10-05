@@ -15,10 +15,10 @@ function frameIt() {
 function pressIt() {
   $('input').on('keydown', function(e) {
     if(e.shiftKey){
-      if(e.key === 71)
-      alert("You pressed a CAPITAL G!");
-    }
-  })
+      if(e.key === 71) {
+        alert("You pressed a CAPITAL G!");
+      }
+    })
 }
 // Define a function submitIt that does not accept a parameter. The function should bind a submit event to the form that alerts "Your form is going to be submitted now.".
 function submitIt() {
