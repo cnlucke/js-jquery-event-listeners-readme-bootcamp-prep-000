@@ -16,7 +16,7 @@ function pressIt() {
   $('input#typing').on('keydown', function(e) {
 //    if(e.shiftKey){
       if(e.which == 71) {
-        alert("You pressed a CAPITAL G!");
+        alert('You pressed a CAPITAL G!');
       }
 //    }
   })
